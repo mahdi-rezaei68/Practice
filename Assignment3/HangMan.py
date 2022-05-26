@@ -19,7 +19,7 @@ while joon > 0:
 
     user_character = input().lower() # s
 
-    if user_character in word:
+    if user_character in word and user_character == word:
         print('yes')
         break
     else:
